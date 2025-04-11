@@ -4,3 +4,4 @@ O projeto visa criar e gerenciar um banco de dados para uma loja de CD's, permit
 Este projeto é baseado no curso "MySQL: Criando e Manipulando Banco de Dados" da IMPACTA.
 
 Nota: Todos os dados sensíveis, incluindo informações de clientes, pedidos e quaisquer outros dados pessoais, são fictícios e foram criados apenas para fins de demonstração e prática.
+![image](https://github.com/user-attachments/assets/bf9ed63c-c83d-490c-89ac-99e36d9cefde)
