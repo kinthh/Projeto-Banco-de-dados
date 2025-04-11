@@ -6,7 +6,7 @@ Este projeto é baseado no curso "MySQL: Criando e Manipulando Banco de Dados" d
 Nota: Todos os dados sensíveis, incluindo informações de clientes, pedidos e quaisquer outros dados pessoais, são fictícios e foram criados apenas para fins de demonstração e prática.
 ![image](https://github.com/user-attachments/assets/bf9ed63c-c83d-490c-89ac-99e36d9cefde)
 
-# Diagrama do Projeto
+# Diagrama do Projeto:
 Este diagrama tem como objetivo facilitar a visualização dos campos relacionados no projeto de banco de dados para uma loja de CD's.
 
 É possível observar que a tabela de pedidos é o principal campo, onde a partir dele se desdobra a relação com outras entidades essenciais, como clientes, títulos (CDs), e outras tabelas relacionadas aos pedidos.
@@ -15,7 +15,7 @@ Cada entidade está devidamente conectada, mostrando a integração entre os dif
 
 Esse diagrama proporciona uma visão clara e organizada da estrutura do banco de dados, ajudando no desenvolvimento, manutenção e compreensão do sistema como um todo.]
 
-# Entidades Principais
+# Entidades Principais:
 - CDs (Títulos): Esta entidade armazena informações sobre os CDs disponíveis na loja, incluindo título, preço, quantidade em estoque, gravadora associada e categoria do CD.
 - Artistas: Registra os artistas associados aos CDs, permitindo a associação de múltiplos artistas a cada CD.
 - Gravadoras: Armazena detalhes das gravadoras que produzem os CDs, permitindo o rastreamento dos CDs produzidos por cada gravadora.
@@ -23,3 +23,10 @@ Esse diagrama proporciona uma visão clara e organizada da estrutura do banco de
 - Clientes: Mantém informações sobre os clientes da loja, como nome e endereço.
 - Pedidos: Registra os pedidos feitos pelos clientes, incluindo os CDs solicitados, data do pedido e informações do cliente.
 - Títulos Pedidos: Relaciona os CDs solicitados em cada pedido, permitindo o rastreamento dos CDs vendidos em cada transação.
+
+# Funcionalidades Principais:
+- Cadastro de CDs: Permite adicionar novos CDs ao estoque da loja, fornecendo informações como título, preço, quantidade em estoque, gravadora e categoria.
+- Associação de Artistas: Permite associar um ou mais artistas a cada CD, permitindo aos clientes pesquisar e filtrar CDs por artistas específicos.
+-Gerenciamento de Clientes: Possibilita o cadastro e manutenção de informações dos clientes, incluindo histórico de pedidos e detalhes de contato.
+-Processamento de Pedidos: Permite registrar novos pedidos, associando os CDs solicitados a cada pedido e atualizando automaticamente o estoque.
+-Relatórios de Vendas: Fornece relatórios detalhados sobre as vendas, incluindo informações como produtos mais vendidos, clientes frequentes e desempenho geral da loja.
