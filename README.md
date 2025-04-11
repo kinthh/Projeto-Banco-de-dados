@@ -27,6 +27,6 @@ Esse diagrama proporciona uma visão clara e organizada da estrutura do banco de
 # Funcionalidades Principais:
 - Cadastro de CDs: Permite adicionar novos CDs ao estoque da loja, fornecendo informações como título, preço, quantidade em estoque, gravadora e categoria.
 - Associação de Artistas: Permite associar um ou mais artistas a cada CD, permitindo aos clientes pesquisar e filtrar CDs por artistas específicos.
--Gerenciamento de Clientes: Possibilita o cadastro e manutenção de informações dos clientes, incluindo histórico de pedidos e detalhes de contato.
--Processamento de Pedidos: Permite registrar novos pedidos, associando os CDs solicitados a cada pedido e atualizando automaticamente o estoque.
--Relatórios de Vendas: Fornece relatórios detalhados sobre as vendas, incluindo informações como produtos mais vendidos, clientes frequentes e desempenho geral da loja.
+- Gerenciamento de Clientes: Possibilita o cadastro e manutenção de informações dos clientes, incluindo histórico de pedidos e detalhes de contato.
+- Processamento de Pedidos: Permite registrar novos pedidos, associando os CDs solicitados a cada pedido e atualizando automaticamente o estoque.
+- Relatórios de Vendas: Fornece relatórios detalhados sobre as vendas, incluindo informações como produtos mais vendidos, clientes frequentes e desempenho geral da loja.
